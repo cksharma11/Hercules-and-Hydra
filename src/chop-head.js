@@ -55,4 +55,7 @@ const chopHeadTillAlive = heads => {
   return extendedHeads;
 };
 
-export default chopHeadTillAlive;
+module.exports = {
+  chopHeadTillAlive,
+  chopHead
+};
